@@ -1,0 +1,4 @@
+- name: app setup using role from common
+  ansible.builtin.import_role:
+    name: common
+    task_from: app-setup
