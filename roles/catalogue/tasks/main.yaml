@@ -1,4 +1,4 @@
 - name: app setup using role from common
   ansible.builtin.import_role:
     name: common #calling from common in role folder, also called common role 
-    tasks_from: app-setup
+    tasks_from: app-setup #import: app-setup.yaml file # .yaml is automatically considered, so noth typing .yaml
